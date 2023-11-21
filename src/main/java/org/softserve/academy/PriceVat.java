@@ -12,11 +12,12 @@ public class PriceVat {
         double price, priceVat;
         final double VAT = 0.2;
         Scanner sc = new Scanner(System.in);
-        System.out.println("Please enetre your price:");
+        System.out.println("Please input your price:");
         price= sc.nextDouble();
         priceVat=price+price*VAT;
         System.out.println("Cost excluding  VAT is: " + price);
         System.out.print("Cost including  VAT is: ");
         System.out.printf(String.valueOf(priceVat));
+        sc.close();
     }
 }
