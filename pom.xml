@@ -83,7 +83,7 @@
                 <arhive>
                     <manifest>
                         <addClasspath>true</addClasspath>
-                        <mainClass>org.softserve.academy.App</mainClass>
+                        <mainClass>org.softserve.academy.AvarageTbyArays</mainClass>
                     </manifest>
                 </arhive>
             </configuration>
