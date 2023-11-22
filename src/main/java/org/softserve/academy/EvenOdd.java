@@ -14,8 +14,10 @@ public class EvenOdd {
         int number;
         System.out.print("Please input your number: ");
         number= sc.nextInt();
-        String str1 = (number % 2!=0) ? "Your number is odd" : "Your number is even";
-        System.out.println(str1);
-
+        if (number % 2!=0){
+            System.out.print("Your number is odd");
+        } else {
+            System.out.print("Your number is even");
+        };
     }
 }
