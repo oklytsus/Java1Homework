@@ -12,10 +12,10 @@ public class AvarageTbyArays
         float temperature[] = new float[days];
 
 
-        for (int i=0; i<days; i++ ){
+        for (int i=1; i<=days; i++ ){
             System.out.println("Please input temperature for day" + i);
-            temperature[i]= sc.nextFloat();
-            sum+=temperature[i];
+            temperature[i-1]= sc.nextFloat();
+            sum+=temperature[i-1];
         };
 
         averageT=sum/days;
