@@ -16,9 +16,9 @@ public class GradeCalculator {
         System.out.print("Please input your number between 0 and 100: ");
         number= sc.nextInt();
         if (number>=88 ){ letter='A';
-            } else if (number<88 & number>=72) { letter='B';
-            } else if (number<72 & number>=65) { letter = 'C';
-            } else if (number<65 & number>=50) {
+            } else if (number<88 && number>=72) { letter='B';
+            } else if (number<72 && number>=65) { letter = 'C';
+            } else if (number<65 && number>=50) {
             letter = 'D';
         }else { letter = 'F';}
         System.out.print("Your Grade is: " + letter);
