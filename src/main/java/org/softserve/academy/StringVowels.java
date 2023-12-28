@@ -1,6 +1,7 @@
 package org.softserve.academy;
 
 import java.util.Scanner;
+
 /*
 Task 2. Counting Vowels in a String
 Write a program that asks the user to input a string.
@@ -13,7 +14,7 @@ public class StringVowels {
     public static void main(String[] args) {
         System.out.println("Enter String:");
         String string = sc.nextLine();
-        int vowels=0;
+        int vowels = 0;
         // Convert the input string to lowercase to simplify vowel checking
         string = string.toLowerCase();
 
@@ -28,7 +29,9 @@ public class StringVowels {
 
         System.out.println("The number of vowels found is: " + vowels);
 
-        };
-
     }
+
+    ;
+
+}
 

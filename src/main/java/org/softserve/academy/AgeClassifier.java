@@ -15,15 +15,23 @@ public class AgeClassifier {
         double number;
         String ageClassifier = null;
         System.out.print("Please enter your age: ");
-        number= sc.nextDouble();
-        if (number>=60 ){ ageClassifier="You are senior.";
-            } else if (number>=20 & number<=59) { ageClassifier="You are adult.";
-            } else if (number>=13 & number<=19) { ageClassifier="You are teenager.";
-            } else if (number>=0 & number<=12) { ageClassifier="You are child.";
-                }
-        System.out.println(ageClassifier);
+        number = sc.nextDouble();
+        if (number >= 60) {
+            ageClassifier = "You are senior.";
+        } else if (number >= 20 & number <= 59) {
+            ageClassifier = "You are adult.";
+        } else if (number >= 13 & number <= 19) {
+            ageClassifier = "You are teenager.";
+        } else if (number >= 0 & number <= 12) {
+            ageClassifier = "You are child.";
         }
-
+        if (number < 0 || number > 120) {
+            System.out.println("You've entered incorrect age value.");
+        } else {
+            System.out.println(ageClassifier);
+        }
     }
+
+}
 
 

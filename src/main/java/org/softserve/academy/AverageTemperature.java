@@ -1,6 +1,7 @@
 package org.softserve.academy;
 
 import java.util.Scanner;
+
 /**
  * Task 2 Average Temperature Calculation
  * Write a program that asks the user for the temperature for five days
@@ -10,18 +11,18 @@ import java.util.Scanner;
  */
 public class AverageTemperature {
     public static void main(String[] args) {
-        float temperature, averageT, sum=0;
-        int days=5, i=1;
+        float temperature, averageT, sum = 0;
+        int days = 5, i = 1;
         Scanner sc = new Scanner(System.in);
-        do{
+        do {
             System.out.println("Please input temperature for day" + i);
-            temperature= sc.nextFloat();
-            sum+=temperature;
+            temperature = sc.nextFloat();
+            sum += temperature;
             i++;
-        } while (i<=days);
-        averageT=sum/days;
+        } while (i <= days);
+        averageT = sum / days;
 
-        System.out.print("The average temperature for " +days+ "days is : ");
+        System.out.print("The average temperature for " + days + "days is : ");
         System.out.printf(String.valueOf(averageT));
         sc.close();
     }

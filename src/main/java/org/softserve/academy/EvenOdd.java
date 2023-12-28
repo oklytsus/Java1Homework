@@ -1,6 +1,7 @@
 package org.softserve.academy;
 
 import java.util.Scanner;
+
 /*
 Task 4 Even or Odd Number Checker
 Write a program that asks the user to enter a number.
@@ -13,9 +14,15 @@ public class EvenOdd {
     public static void main(String[] args) {
         int number;
         System.out.print("Please input your number: ");
-        number= sc.nextInt();
-        String str1 = (number % 2!=0) ? "Your number is odd" : "Your number is even";
-        System.out.println(str1);
+        number = sc.nextInt();
+        if (number % 2 != 0) {
+            System.out.print("Your number is odd ");
+        } else {
+            System.out.print("Your number is even ");
+        }
+        ;
+//        String str1 = (number % 2!=0) ? "Your number is odd" : "Your number is even";
+//        System.out.println(str1);
 
     }
 }
