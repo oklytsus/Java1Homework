@@ -4,6 +4,7 @@ import java.security.SecureRandom;
 import java.util.Scanner;
 
 /*
+Hard Level
 Create a Java program that generates a secure, random password based on user preferences.
  */
 public class PasswordGenerator {

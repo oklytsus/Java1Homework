@@ -11,7 +11,6 @@ public class AvarageTbyArays
         int days=5;
         float[] temperatures = new float[days];
 
-
         for (int i=1; i<=days; i++ ){
             System.out.println("Please input temperature for day" + i);
             temperatures[i-1]= sc.nextFloat();
@@ -23,8 +22,5 @@ public class AvarageTbyArays
         System.out.printf(String.valueOf(averageT));
         System.out.println();
        // System.out.printf("The average temperature for %d days: %.2f%n", days, averageT);
-
-
-
     }
 }
